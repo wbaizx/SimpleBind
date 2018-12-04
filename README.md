@@ -12,8 +12,8 @@
  		}
  	}
 
- 	implementation 'com.github.wbaizx.SimpleBind:simple-bind:1.0.1'
- 	annotationProcessor 'com.github.wbaizx.SimpleBind:simple-compiler:1.0.1'
+    implementation 'com.github.wbaizx.SimpleBind:simple-bind:1.0.1'
+    annotationProcessor 'com.github.wbaizx.SimpleBind:simplebind-compiler:1.0.1'
  ```
 
 ```java
