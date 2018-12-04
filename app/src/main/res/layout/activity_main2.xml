@@ -4,29 +4,23 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".main.MainActivity">
+    tools:context=".te.Main2Activity">
 
     <TextView
-        android:id="@+id/test1"
+        android:id="@+id/test3"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="2"
+        android:layout_weight="1"
         android:gravity="center"
         android:text="Hello World!"
         android:textSize="30dp" />
 
     <TextView
-        android:id="@+id/test2"
+        android:id="@+id/test4"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="2"
+        android:layout_weight="1"
         android:gravity="center"
         android:text="Hello World!"
         android:textSize="30dp" />
-
-    <FrameLayout
-        android:id="@+id/layout"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="3" />
 </LinearLayout>

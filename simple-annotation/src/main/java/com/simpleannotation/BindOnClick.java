@@ -1,11 +1,12 @@
-package com.simplebind;
+package com.simpleannotation;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
-@Target(ElementType.FIELD)
+@Target(ElementType.METHOD)
 @Retention(RetentionPolicy.CLASS)
-public @interface BindView {
+public @interface BindOnClick {
+    int[] value();
 }

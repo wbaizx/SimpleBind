@@ -1,1 +1,1 @@
-include ':app', ':bindlib'
+include ':app', ':simplebind-compiler', ':simple-annotation', ':simple-bind'

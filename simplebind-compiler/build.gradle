@@ -1,0 +1,14 @@
+import org.gradle.internal.jvm.Jvm
+
+apply plugin: 'java-library'
+apply plugin: 'com.github.dcendents.android-maven'
+group='com.github.wbaizx'
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.squareup:javapoet:1.11.1'
+    implementation project(':simple-annotation')
+    compileOnly files(Jvm.current().getToolsJar())
+}
+sourceCompatibility = "7"
+targetCompatibility = "7"
