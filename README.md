@@ -4,6 +4,18 @@
 
  用法跟butterknife一样
 
+ ```java
+ 	allprojects {
+ 		repositories {
+ 			...
+ 			maven { url 'https://jitpack.io' }
+ 		}
+ 	}
+
+ 	implementation 'com.github.wbaizx.SimpleBind:simple-bind:1.0.1'
+ 	annotationProcessor 'com.github.wbaizx.SimpleBind:simple-compiler:1.0.1'
+ ```
+
 ```java
     //绑定控件
     @BindView(R.id.test1)
